@@ -1,5 +1,6 @@
 # Some general ignore patterns
 
+# temp & build files
 build/
 obj/
 *.o
@@ -9,10 +10,13 @@ Release*/
 *.app/
 *.pyc
 .svn/
+*.exe
+*.dll
+*.lib
 
 # IDE-specific ignore patterns (e.g. user-specific files)
 
-#XCode
+# XCode
 *.xcodeproj
 project.pbxproj
 xcshareddata
@@ -25,16 +29,16 @@ openFrameworks-Info.plist
 *.perspectivev3
 *.mode1v3
 *.mode2v3
-#XCode 4
+# XCode 4
 xcuserdata
 *.xcworkspace
 
-#Code::Blocks
+# Code::Blocks
 *.depend
 *.layout
 *.cbTemp
 
-#Visual Studio
+# Visual Studio
 *.sln
 *.vcxproj
 *.vcxproj.filters
@@ -45,38 +49,45 @@ icon.rc
 *.opensdf
 *.suo
 ipch/
+*.pdb
+*.exp
+*.ilk
+*.aps
 
-#Eclipse
+# Eclipse
 .metadata
 local.properties
 .externalToolBuilders
 
-#codelite
+# codelite
 *.session
 *.tags
 *.workspace.*
 
+#Linux/OSX
+Makefile
+
 # OS-specific ignore patterns
 
-#Linux
+# Linux
 *~
 # KDE
 .directory
 
-#OSX
+# OSX
 .DS_Store
 *.swp
 *~.nib
 # Thumbnails
 ._*
 
-#Windows
+# Windows
 # Windows image file caches
 Thumbs.db
 # Folder config file
 Desktop.ini
 
-#Android
+# Android
 .csettings
 
 # Packages
