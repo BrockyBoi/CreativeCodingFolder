@@ -1,0 +1,10 @@
+Plague of Europe,1347,1354,25,75
+Spanish Flu,1918,1920,100,1800
+Plague of Justinian,541,542,25,62
+Cocoliztli,1545,1548,15,19
+European Jews (WWII),1933.75,1945.42,6,9.5
+Armenian Halocaust,1915.33,1916,1.5,2
+Genocide In Cambodia,1975.33,1979,2.5,8
+Holodomor,1932,1933,7.5,29.6
+Tutsi Genocide,1994.27,1994.48,.8,1.66
+Rape of Nanjing,1937.95,1938.05,.3,.575
